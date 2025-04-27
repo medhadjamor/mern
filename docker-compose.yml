@@ -12,7 +12,7 @@ services:
   server:
     build: server
     container_name: server
-    environment:
+    environment:  
       - PORT=3000
       - BASE_API_URL=api
       - CLIENT_URL=http://localhost:8080
